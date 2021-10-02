@@ -1,16 +1,16 @@
-.Box1 {
-  background-color: orange;
-  width: 100px;
-  height: 100px;
+h1 {
+  color: red !important;
+}
+h1#main.box {
+  color: yellow !important;
+}
+section > #main.title {
+  color: blue;
+}
+section#about > h1 {
+  color: pink;
 }
 
-.Box2 {
-  background-color: skyblue;
-  width: 50%;
-  height: 50%;
-}
-
-.Box3 {
-  background-color: tomato;
-  margin-top: 10px;
+#about > #main {
+  color: gray;
 }
