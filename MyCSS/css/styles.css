@@ -1,16 +1,29 @@
-h1 {
-  color: red !important;
-}
-h1#main.box {
-  color: yellow !important;
-}
-section > #main.title {
-  color: blue;
-}
-section#about > h1 {
-  color: pink;
+header {
+  display: flex;
 }
 
-#about > #main {
-  color: gray;
+header ul {
+  list-style: none;
+  display: flex;
+  justify-self: flex-end;
+}
+
+section {
+  display: flex;
+  margin-bottom: 60px;
+  justify-content: space-between;
+}
+
+section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.pic {
+  width: 180px;
+  /* margin-right: 32px; */
+}
+
+.desc {
+  /* flex: 1; */
+  width: calc(100% - 180px -32px);
 }
